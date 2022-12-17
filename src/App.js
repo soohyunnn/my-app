@@ -8,11 +8,15 @@ import FunctionalComponent from "./components/2-5.State/FunctionalComponent";
 import Event from "./components/2-7.Event/Event";
 import Condition from "./components/2-8.ConditionalRendering/Condition";
 import List from "./components/2-9.List/List";
+import ControlledComponent from "./components/2-10.Forms/ControlledComponent";
+import UnControlledComponent from "./components/2-10.Forms/UnControlledComponent";
 
 function App() {
   return (
     <div className="App">
-      <List />
+      <UnControlledComponent />
+      <ControlledComponent />
+      {/* <List /> */}
       {/* <Condition /> */}
       {/* <Event /> */}
       {/* <ClassComponent2 /> */}
