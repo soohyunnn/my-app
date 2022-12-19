@@ -15,11 +15,15 @@ import Reducer from "./components/3-3.Hooks/Reducer";
 import WelcomDialog from "./components/3-5.Composition/WelcomDialog";
 import Dialog from "./components/3-6.Composition2/Dialog";
 import ThankyouDialog from "./components/3-6.Composition2/ThankyouDialog";
+import Button from "./components/3-7.HOC/Button";
+import Input from "./components/3-7.HOC/Input";
 
 function App() {
   return (
     <div className="App">
-      <ThankyouDialog />
+      <Input />
+      <Button />
+      {/* <ThankyouDialog /> */}
       {/* <Dialog /> */}
       {/* <WelcomDialog /> */}
       {/* <Reducer /> */}
