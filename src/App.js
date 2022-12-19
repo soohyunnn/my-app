@@ -12,12 +12,14 @@ import ControlledComponent from "./components/2-10.Forms/ControlledComponent";
 import UnControlledComponent from "./components/2-10.Forms/UnControlledComponent";
 import State from "./components/3-3.Hooks/State";
 import Reducer from "./components/3-3.Hooks/Reducer";
+import WelcomDialog from "./components/3-5.Composition/WelcomDialog";
 
 function App() {
   return (
     <div className="App">
-      <Reducer />
-      <State />
+      <WelcomDialog />
+      {/* <Reducer /> */}
+      {/* <State /> */}
       {/* <UnControlledComponent /> */}
       {/* <ControlledComponent /> */}
       {/* <List /> */}
