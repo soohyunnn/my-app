@@ -89,9 +89,9 @@ nav {
   @include prefix(filter, grayscale(50%), moz webkit);
 }
 
-.button {
-  @include prefix(background, linear-gradient(red, yellow), moz webkit o ms);
-}
+// .button {
+//   @include prefix(background, linear-gradient(red, yellow), moz webkit o ms);
+// }
 
 @mixin inline-animation($duration) {
   $name: inline-#{unique-id()};
