@@ -10,12 +10,20 @@ import "./App.css";
 // import StyledComponentExample from "./components/Part2/StyledComponent/StyledComponentExample";
 
 // import AntDesignExample from "./components/Part2/AntDesign/AntDesignExample";
-import "semantic-ui-css/semantic.min.css";
-import ReactSemanticExample from "./components/Part2/ReactSemantic/ReactSemanticExample";
+// import "semantic-ui-css/semantic.min.css";
+// import ReactSemanticExample from "./components/Part2/ReactSemantic/ReactSemanticExample";
+import "@fontsource/roboto/300.css";
+import "@fontsource/roboto/400.css";
+import "@fontsource/roboto/500.css";
+import "@fontsource/roboto/700.css";
+
+import "bootstrap/dist/css/bootstrap.min.css";
+import ReactBootStrapExample from "./components/Part2/ReactBootStrap/ReactBootStrapExample";
 
 function App() {
   return (
-    <ReactSemanticExample />
+    <ReactBootStrapExample />
+    // <ReactSemanticExample />
     // <AntDesignExample />
     // <OnsenUIExample />
     // <div className="App">
