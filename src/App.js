@@ -9,11 +9,14 @@ import "./App.css";
 // import SassExample from "./components/Part2/Sass/SassExample";
 // import StyledComponentExample from "./components/Part2/StyledComponent/StyledComponentExample";
 
-import AntDesignExample from "./components/Part2/AntDesign/AntDesignExample";
+// import AntDesignExample from "./components/Part2/AntDesign/AntDesignExample";
+import "semantic-ui-css/semantic.min.css";
+import ReactSemanticExample from "./components/Part2/ReactSemantic/ReactSemanticExample";
 
 function App() {
   return (
-    <AntDesignExample />
+    <ReactSemanticExample />
+    // <AntDesignExample />
     // <OnsenUIExample />
     // <div className="App">
     //   <OnsenUIExample />
