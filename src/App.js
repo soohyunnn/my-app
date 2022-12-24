@@ -17,12 +17,14 @@ import "@fontsource/roboto/400.css";
 import "@fontsource/roboto/500.css";
 import "@fontsource/roboto/700.css";
 
-import "bootstrap/dist/css/bootstrap.min.css";
-import ReactBootStrapExample from "./components/Part2/ReactBootStrap/ReactBootStrapExample";
+// import "bootstrap/dist/css/bootstrap.min.css";
+// import ReactBootStrapExample from "./components/Part2/ReactBootStrap/ReactBootStrapExample";
+import MaterialUIExample from "./components/Part2/MaterialUI/MaterialUIExample";
 
 function App() {
   return (
-    <ReactBootStrapExample />
+    <MaterialUIExample />
+    // <ReactBootStrapExample />
     // <ReactSemanticExample />
     // <AntDesignExample />
     // <OnsenUIExample />
